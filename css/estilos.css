@@ -1,0 +1,115 @@
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+ *{
+     margin: 0%;
+     padding: 0%;    /*espaçamento entre a img e a borda */
+     box-sizing: border-box;
+     text-decoration: none;
+ }
+ html{
+    font-family:"Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;background-image: url("../img/pexels-freestocks-76942.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cabecalho{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color:rgba(87, 213, 245, 0.623);
+    height: 150px;
+
+}
+
+.logotipo{
+    width: 200px;
+    padding: 10px;
+}
+.menu{
+
+    display: flex;
+    gap: 80px;       /*distancia entre as colunas */
+
+}
+.menuitem{
+    font-size: 18px;
+    font-weight: 300;
+    padding: 10px;
+
+}
+
+.menuItem:hover{
+
+    cursor:pointer;
+}
+
+#acesse:hover , #inscreva{
+
+    background-color: rgba(240, 51, 51, 0.719);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#acesse:hover ,#inscreva:hover{
+    background-color: rgb(255, 255, 255,0.7);
+}
+
+.conteudo{
+
+    display: flex;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.conteudoPrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#titulo{
+
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#subtitulo{
+
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.botao{
+
+    margin-top: 20px;
+    width: 250px;
+    height: 50px;
+    background-color: rgba(252, 31, 23, 0.897);
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+.botao:hover{
+
+    background-color: rgba(70, 217, 243, 0.9);
+    color: black;
+}
+
+.rodape{
+
+    padding: 10px;
+}
+
+.rodape p{
+   
+    text-align: center;
+}
