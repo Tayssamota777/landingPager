@@ -1,0 +1,37 @@
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    input[type="text"] {
+        padding: 8px;
+        font-size: 16px;
+    }
+
+    button {
+        padding: 10px 20px;
+        background-color: rgb(248, 6, 6);
+        color: rgb(255, 255, 255);
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    button:hover {
+        background-color: #1808f7;
+    }
+
+    #resultado {
+        margin-top: 20px;
+        font-size: 18px;
+        color: red;
+    }

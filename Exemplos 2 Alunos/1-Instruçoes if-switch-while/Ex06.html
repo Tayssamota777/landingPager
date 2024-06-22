@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Loop While</title>
+</head>
+<body>
+    <h1>Tabuada</h1
+    <label for="numero"></label>
+    <input type="text" id="id1">
+    <button onclick="gerarTabuada()" id="calculo">Gerar Tabuada</button>
+    <p id="resultadosTabuada"></p>
+
+     <!-- JS interno -->
+
+    <script>
+        function gerarTabuada(){
+
+            var tabuada= document.getElementById("id1").value;
+            var text ="";
+            var i = 0;
+                // verifica se o valor valido
+            if (isNaN(tabuada)){
+                alert ("Por favor, insira um número entre 1 a 10");
+                return;
+            } else{
+
+                while (i <=10){
+
+                    text += tabuada + "x" + i + "=" + tabuada*i + "</br>";
+                    i++
+                }
+                document.getElementById("resultadosTabuada").innerHTML = text;
+            }
+        }
+    </script>
+</body>
+</html>

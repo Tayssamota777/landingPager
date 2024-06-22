@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Loop While</title>
+    </head>
+
+    <body>
+
+
+        <h1>Criar lista com Loop</h1>
+        <ul id="lista">
+        </ul>
+                    <!-- Lista criada no JS-->
+    <script>
+
+    let lista = document.getElementById("lista");
+    let contador = 1;
+
+    while (contador <= 8) {
+
+        let itens = document.createElement("li");
+        itens.textContent = "Item" + contador;
+        lista.appendChild(itens);
+
+        contador ++;
+
+    }
+    </script>
+</body>
+</html>
